@@ -1,0 +1,71 @@
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Basit blog sitesi ana sayfası" />
+  <title>Benim Blogum | Ana Sayfa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title"><a href="index.html">Benim Blogum</a></h1>
+      <nav aria-label="Ana menü">
+        <ul class="menu">
+          <li><a href="index.html" aria-current="page">Ana Sayfa</a></li>
+          <li><a href="post.html">Blog Gönderisi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <section aria-labelledby="latest-posts">
+      <h2 id="latest-posts" class="section-title">Son Gönderiler</h2>
+
+      <!-- Özet Kart 1 -->
+      <article class="card" itemscope itemtype="https://schema.org/BlogPosting">
+        <header class="card-header">
+          <h3 class="card-title" itemprop="headline">
+            <a href="post.html">HTML &amp; CSS ile Basit Blog Nasıl Yapılır?</a>
+          </h3>
+          <p class="post-meta"><time datetime="2025-10-24">24 Ekim 2025</time> • 3 dk okuma</p>
+        </header>
+        <p class="card-excerpt" itemprop="description">
+          Bu yazıda yalnızca HTML ve CSS kullanarak sade, temiz ve erişilebilir bir blog şablonunun nasıl kurulacağını adım adım anlatıyoruz.
+        </p>
+        <p><a class="read-more" href="post.html" aria-label="Tam yazıyı oku: HTML & CSS ile Basit Blog Nasıl Yapılır?">Devamını oku →</a></p>
+      </article>
+
+      <!-- Özet Kart 2 -->
+      <article class="card" itemscope itemtype="https://schema.org/BlogPosting">
+        <header class="card-header">
+          <h3 class="card-title" itemprop="headline">
+            <a href="post.html">Öğrenciler için 5 Basit Web İpucu</a>
+          </h3>
+          <p class="post-meta"><time datetime="2025-10-20">20 Ekim 2025</time> • 2 dk okuma</p>
+        </header>
+        <p class="card-excerpt" itemprop="description">
+          Renk paleti seçimi, yazı tipi kullanımı ve içerik düzeni gibi küçük ama etkili detaylarla sitenizi nasıl daha profesyonel gösterebileceğinizi keşfedin.
+        </p>
+        <p><a class="read-more" href="post.html" aria-label="Tam yazıyı oku: Öğrenciler için 5 Basit Web İpucu">Devamını oku →</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Benim Blogum. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
